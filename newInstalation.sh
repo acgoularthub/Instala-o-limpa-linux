@@ -24,6 +24,9 @@ PROGRAMAS_PARA_INSTALAR=(
   python3-pip
   python3-venv
   php
+  virtualbox
+  virtualbox-dkms
+  libelf-dev
 )
 
 # Instalar programas no apt
