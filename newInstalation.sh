@@ -28,6 +28,10 @@ PROGRAMAS_PARA_INSTALAR=(
   virtualbox
   virtualbox-dkms
   libelf-dev
+  folder-color
+  gnome-sushi
+  gnome-shell-extensions
+  
 )
 
 # Instalar programas no apt
@@ -92,6 +96,7 @@ echo " "
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub com.stremio.Stremio -y
+flatpak install flathub io.github.jeffshee.Hidamari -y
 
 echo " "
 echo "---------------------------------------------------------------------------------"
